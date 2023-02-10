@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CreatorSharednewCreation: Hashable, Identifiable {
+struct CreatorSharedNewCreation: Hashable, Identifiable {
     let id = UUID()
     var creatorTag: String
     var message: String
