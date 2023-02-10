@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CreatorSharedCreationNotificationCardView: View {
+struct CreatorSharedCreationNotificationsCardView: View {
     
     let creatorSharedCreation: CreatorSharedNewCreation
     
@@ -53,6 +53,7 @@ struct CreatorSharedCreationNotificationCardView_Previews: PreviewProvider {
     static let creatorShared = CreatorSharedNewCreation(creatorTag: "@ElizabethMoriah", message: "@ElizabethMoriah shared a new creation!", imageThumbnail: "IceCreamCats", callToAction: "Check it out!")
     
     static var previews: some View {
-        CreatorSharedCreationNotificationCardView(creatorSharedCreation: creatorShared)
+        CreatorSharedCreationNotificationsCardView(creatorSharedCreation: creatorShared)
     }
 }
+

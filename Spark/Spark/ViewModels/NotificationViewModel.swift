@@ -9,12 +9,16 @@ import SwiftUI
 
 final class NotificationViewModel: ObservableObject {
     
+    @Published var isShowingDetailView: Bool = false
     @Published var isLoading = false
     
-    let columns: [GridItem] = [GridItem(.flexible())]
+    let columns: [GridItem] = [GridItem(.flexible()),
+                               GridItem(.flexible())
+    
+    ]
     
     //FOR THE LOADING VIEW/SPINNER
-    func startFakeNetworkCall() {
+    func startFakenetworkCall() {
         isLoading = true
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.isLoading = false

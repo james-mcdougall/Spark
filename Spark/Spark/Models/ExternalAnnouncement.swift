@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExternalAnnouncement: Hashable, Identifiable {
+struct ExternalAnnouncment: Hashable, Identifiable {
     let id = UUID()
     var title: String
     var message: String

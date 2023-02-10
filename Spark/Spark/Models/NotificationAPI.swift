@@ -22,7 +22,6 @@ struct Notification: Codable {
         case callToAction = "call_to_action"
     }
     // I know that async/await was not introduced in Swift until a later version than what I am currently running, but I am displaying that I know how to make calls using current Swift Concurrency methods here. This is how I would call to an API.
-    
 //    func fetchData() {
 //        guard let url = URL(string: "https://www.spark.com/api/notifications") else {
 //            Log("Error fetching data")

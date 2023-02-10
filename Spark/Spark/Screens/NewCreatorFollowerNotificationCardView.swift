@@ -46,6 +46,7 @@ struct NewCreatorFollowerNotificationCardView: View {
 }
 
 struct NewCreatorFollowerNotificationCardView_Previews: PreviewProvider {
+    
     static let newFollower = NewCreatorFollower(creatorTag: "@ElizabethMoriah", message: "@ElizabethMoriah started following you", callToAction: "Check out their profile!")
     
     static var previews: some View {

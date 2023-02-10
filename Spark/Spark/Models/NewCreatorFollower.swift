@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NewCreatorFollower: Hashable, Identifiable {
     let id = UUID()
-    let creatorTag: String
+    var creatorTag: String
     var message: String
     var callToAction: String
 }
